@@ -1,0 +1,1021 @@
+{
+  "_version": "1.2",
+  "project": {
+    "_id": "63073537cf36e50008bdf4a8",
+    "name": "AI Voice Assistan- AI module",
+    "teamID": "95kw9GL6nO",
+    "devVersion": "630735378cbdb692c97b066f",
+    "platform": "general",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "members": [],
+    "linkType": "STRAIGHT",
+    "image": "",
+    "_version": 1.2,
+    "customThemes": [],
+    "creatorID": 98348,
+    "prototype": {
+      "nlp": {
+        "type": "LUIS",
+        "appID": "f7d28765-391a-4f6a-8e2e-e9dfdd77f69f",
+        "resourceID": "https://us-2.cognitiveservices.azure.com/"
+      },
+      "data": {},
+      "lastTrainedTime": 1661479131168,
+      "trainedModel": {
+        "intents": [
+          {
+            "key": "ha1eo3hy6",
+            "name": "topic 1",
+            "inputs": [
+              {
+                "text": "the first topic",
+                "slots": []
+              },
+              {
+                "text": "what is the first topic?",
+                "slots": []
+              },
+              {
+                "text": "whats the first topic about?",
+                "slots": []
+              },
+              {
+                "text": "tell me about topic one",
+                "slots": []
+              },
+              {
+                "text": "i want to know about the first topic",
+                "slots": []
+              },
+              {
+                "text": "number 1",
+                "slots": []
+              },
+              {
+                "text": "topic number 1",
+                "slots": []
+              },
+              {
+                "text": "topic 1",
+                "slots": []
+              },
+              {
+                "text": "first topic",
+                "slots": []
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "g721k3hvv",
+            "name": "topic 2",
+            "inputs": [
+              {
+                "text": "the second one",
+                "slots": []
+              },
+              {
+                "text": "second topic",
+                "slots": []
+              },
+              {
+                "text": "the second topic",
+                "slots": []
+              },
+              {
+                "text": "topic 2",
+                "slots": []
+              },
+              {
+                "text": "topic number 2",
+                "slots": []
+              },
+              {
+                "text": "whats the second topic",
+                "slots": []
+              },
+              {
+                "text": "tell me about the second topic",
+                "slots": []
+              }
+            ],
+            "slots": []
+          }
+        ],
+        "slots": []
+      }
+    },
+    "createdAt": "2022-08-25T08:39:19.000Z"
+  },
+  "version": {
+    "_id": "630735378cbdb692c97b066f",
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "lectureone",
+      "topic_1",
+      "topic__1",
+      "topic_2"
+    ],
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "ha1eo3hy6",
+          "name": "topic 1",
+          "inputs": [
+            {
+              "text": "the first topic",
+              "slots": []
+            },
+            {
+              "text": "what is the first topic?",
+              "slots": []
+            },
+            {
+              "text": "whats the first topic about?",
+              "slots": []
+            },
+            {
+              "text": "tell me about topic one",
+              "slots": []
+            },
+            {
+              "text": "i want to know about the first topic",
+              "slots": []
+            },
+            {
+              "text": "number 1",
+              "slots": []
+            },
+            {
+              "text": "topic number 1 ",
+              "slots": []
+            },
+            {
+              "text": "topic 1",
+              "slots": []
+            },
+            {
+              "text": "first topic ",
+              "slots": []
+            }
+          ],
+          "slots": []
+        },
+        {
+          "key": "g721k3hvv",
+          "name": "topic 2",
+          "inputs": [
+            {
+              "text": "the second one",
+              "slots": []
+            },
+            {
+              "text": "second topic",
+              "slots": []
+            },
+            {
+              "text": "the second topic",
+              "slots": []
+            },
+            {
+              "text": "topic 2",
+              "slots": []
+            },
+            {
+              "text": "topic number 2",
+              "slots": []
+            },
+            {
+              "text": "whats the second topic",
+              "slots": []
+            },
+            {
+              "text": "tell me about the second topic",
+              "slots": []
+            }
+          ],
+          "slots": []
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {},
+      "platform": "general"
+    },
+    "name": "Initial Version",
+    "projectID": "63073537cf36e50008bdf4a8",
+    "manualSave": false,
+    "autoSaveFromRestore": false,
+    "rootDiagramID": "630735378cbdb692c97b0670",
+    "creatorID": 98348,
+    "_version": 3.5,
+    "components": [],
+    "folders": {},
+    "topics": [
+      {
+        "sourceID": "630735378cbdb692c97b0670",
+        "type": "DIAGRAM"
+      }
+    ],
+    "prototype": {
+      "data": {
+        "name": "AI Voice Assistan- AI module",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "ha1eo3hy6",
+            "name": "topic 1",
+            "inputs": [
+              {
+                "text": "the first topic",
+                "slots": []
+              },
+              {
+                "text": "what is the first topic?",
+                "slots": []
+              },
+              {
+                "text": "whats the first topic about?",
+                "slots": []
+              },
+              {
+                "text": "tell me about topic one",
+                "slots": []
+              },
+              {
+                "text": "i want to know about the first topic",
+                "slots": []
+              },
+              {
+                "text": "number 1",
+                "slots": []
+              },
+              {
+                "text": "topic number 1",
+                "slots": []
+              },
+              {
+                "text": "topic 1",
+                "slots": []
+              },
+              {
+                "text": "first topic",
+                "slots": []
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "g721k3hvv",
+            "name": "topic 2",
+            "inputs": [
+              {
+                "text": "the second one",
+                "slots": []
+              },
+              {
+                "text": "second topic",
+                "slots": []
+              },
+              {
+                "text": "the second topic",
+                "slots": []
+              },
+              {
+                "text": "topic 2",
+                "slots": []
+              },
+              {
+                "text": "topic number 2",
+                "slots": []
+              },
+              {
+                "text": "whats the second topic",
+                "slots": []
+              },
+              {
+                "text": "tell me about the second topic",
+                "slots": []
+              }
+            ],
+            "slots": []
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "630735378cbdb692c97b0670",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {},
+        "extraSlots": [],
+        "extraIntents": [],
+        "usedIntentsSet": [
+          "ha1eo3hy6",
+          "g721k3hvv"
+        ],
+        "platform": "general",
+        "goToIntentsSet": [],
+        "products": {},
+        "interfaces": [],
+        "permissions": []
+      },
+      "settings": {},
+      "platform": "general"
+    }
+  },
+  "diagrams": {
+    "630735378cbdb692c97b0670": {
+      "_id": "630735378cbdb692c97b0670",
+      "offsetX": 524.8032363360484,
+      "offsetY": 249.9289322422827,
+      "zoom": 100,
+      "variables": [],
+      "name": "ROOT",
+      "versionID": "630735378cbdb692c97b066f",
+      "creatorID": 98348,
+      "modified": 1661416759,
+      "nodes": {
+        "start00000000000000000000": {
+          "nodeID": "start00000000000000000000",
+          "type": "start",
+          "coords": [
+            43.995954579939564,
+            -62.41116530285338
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#43494E",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "630812da051110737948895c",
+                  "id": "60b7e7cad4b17f0ce7bddf11"
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "630812da051110737948895a": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "en-US-standard-B",
+                "content": "Welcome to this AI module"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "630812da051110737948895b"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "630812da051110737948895a"
+        },
+        "630812da051110737948895c": {
+          "type": "block",
+          "data": {
+            "name": "New Block 1",
+            "steps": [
+              "630812da051110737948895a",
+              "630814110511107379488963"
+            ],
+            "color": ""
+          },
+          "nodeID": "630812da051110737948895c",
+          "coords": [
+            268.98951966154544,
+            215.40548463271594
+          ]
+        },
+        "630814110511107379488963": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "What topic are you interested in"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "630815030511107379488968",
+                  "id": "630814110511107379488964",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          434.9895501791235,
+                          355.65549559997055
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          529.5520349203344,
+                          355.65549559997055
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          529.5520349203344,
+                          296.68676515029404
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          624.1145196615454,
+                          296.68676515029404
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "630814110511107379488963",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "630815030511107379488968": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "ha1eo3hy6",
+                "mappings": []
+              },
+              {
+                "intent": "g721k3hvv",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": {
+              "types": [
+                "reprompt"
+              ],
+              "pathName": "No match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": ""
+                }
+              ]
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "63081503051110737948896a"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "63081bcf05111073794889ad",
+                  "id": "630815030511107379488969",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          956.1145219386333,
+                          296.9367347494092
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1130.7986710723603,
+                          296.9367347494092
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1130.7986710723603,
+                          370.9563951184307
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1305.4828202060876,
+                          370.9563951184307
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "630827ae9869ea7273da1895",
+                  "type": "",
+                  "target": "63082ae79869ea7273da18c3",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          956.1145219386333,
+                          351.4367352974361
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1174.997957644469,
+                          351.4367352974361
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1174.997957644469,
+                          760.6591369357922
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1393.8813933503045,
+                          760.6591369357922
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "630815030511107379488968",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "63081503051110737948896b": {
+          "type": "block",
+          "data": {
+            "name": "New Block 2",
+            "steps": [
+              "630815030511107379488968"
+            ]
+          },
+          "nodeID": "63081503051110737948896b",
+          "coords": [
+            790.1145196615454,
+            217.1867346327159
+          ]
+        },
+        "6308172f0511107379488972": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Topic 1: Overview and Introduction to AI"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6308172f0511107379488973"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6308172f0511107379488972"
+        },
+        "6308172f0511107379488974": {
+          "type": "block",
+          "data": {
+            "name": "New Block 3",
+            "steps": [
+              "6308172f0511107379488972"
+            ],
+            "color": ""
+          },
+          "nodeID": "6308172f0511107379488974",
+          "coords": [
+            1192.3912952935525,
+            8.8155225115038
+          ]
+        },
+        "63081bcf05111073794889ad": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.sheety.co/80973082c9d80fc4cbb3b577f3d073d8/aiVoiceAppAiModuleData/sheet1",
+            "body": [],
+            "params": [],
+            "method": "GET",
+            "headers": [
+              {
+                "key": "",
+                "val": ""
+              },
+              {
+                "key": "",
+                "val": ""
+              },
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "content": "",
+            "mappings": [
+              {
+                "path": "response.sheet1.0.topicTitles",
+                "var": "topic_1"
+              },
+              {
+                "path": "",
+                "var": null
+              }
+            ],
+            "bodyType": "formData",
+            "selectedAction": "Make a GET Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6308264c9869ea7273da187d",
+                  "id": "63081bcf05111073794889ae",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1305.4828202060876,
+                          464.70640283916305
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": true,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1017.0861445889595,
+                          464.70640283916305
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1017.0861445889595,
+                          612.4376873813794
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          728.6894689718315,
+                          612.4376873813794
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "63081bcf05111073794889af"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63081bcf05111073794889ad"
+        },
+        "63081bcf05111073794889b0": {
+          "type": "block",
+          "data": {
+            "name": "New Block 4",
+            "steps": [
+              "63081bcf05111073794889ad"
+            ]
+          },
+          "nodeID": "63081bcf05111073794889b0",
+          "coords": [
+            1471.4828338739692,
+            291.456372521888
+          ]
+        },
+        "6308264c9869ea7273da187d": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "en-US-standard-B",
+                "content": "{{[topic_1].topic_1}} "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6308264c9869ea7273da187e"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6308264c9869ea7273da187d",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6308264c9869ea7273da187f": {
+          "type": "block",
+          "data": {
+            "name": "New Block 6",
+            "steps": [
+              "6308264c9869ea7273da187d"
+            ]
+          },
+          "nodeID": "6308264c9869ea7273da187f",
+          "coords": [
+            562.6894035059403,
+            532.9377178930607
+          ]
+        },
+        "630829249869ea7273da1898": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "en-US-standard-B",
+                "content": "{{[topic_2].topic_2}} "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "630829249869ea7273da1899"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "630829249869ea7273da1898"
+        },
+        "63082ae79869ea7273da18c1": {
+          "type": "block",
+          "data": {
+            "name": "New Block 4 copy",
+            "color": "",
+            "steps": [
+              "63082ae79869ea7273da18c3"
+            ]
+          },
+          "nodeID": "63082ae79869ea7273da18c1",
+          "coords": [
+            1559.881371712629,
+            681.1591070883072
+          ]
+        },
+        "63082ae79869ea7273da18c3": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.sheety.co/80973082c9d80fc4cbb3b577f3d073d8/aiVoiceAppAiModuleData/sheet1",
+            "body": [],
+            "params": [],
+            "method": "GET",
+            "headers": [
+              {
+                "key": "",
+                "val": ""
+              },
+              {
+                "key": "",
+                "val": ""
+              },
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "content": "",
+            "mappings": [
+              {
+                "path": "response.sheet1.1.topicTitles",
+                "var": "topic_2"
+              },
+              {
+                "path": "",
+                "var": null
+              }
+            ],
+            "bodyType": "formData",
+            "selectedAction": "Make a GET Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "630829249869ea7273da1898",
+                  "id": "63082ae79869ea7273da18c5",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1393.8813285808978,
+                          854.4090980163633
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": true,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1061.2853927727688,
+                          854.4090980163633
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1061.2853927727688,
+                          672.9377458482868
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          728.6894569646397,
+                          672.9377458482868
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "63082ae79869ea7273da18c4"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63082ae79869ea7273da18c3"
+        },
+        "63082b869869ea7273da18d1": {
+          "type": "block",
+          "data": {
+            "name": "New Block 7",
+            "steps": [
+              "630829249869ea7273da1898"
+            ]
+          },
+          "nodeID": "63082b869869ea7273da18d1",
+          "coords": [
+            577.6894035059403,
+            799.6877178930607
+          ]
+        }
+      },
+      "children": [],
+      "intentStepIDs": [],
+      "type": "TOPIC"
+    }
+  },
+  "variableStates": []
+}
